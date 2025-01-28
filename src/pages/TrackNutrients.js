@@ -36,6 +36,7 @@ const TrackNutrients = () => {
         />
         <Button
           variant="contained"
+          color="success"
           sx={{ mt: 2 }}
           onClick={handleAnalyze}
         >

@@ -29,7 +29,7 @@ const ProgressTracking = () => {
         onChange={(e) => setUserId(e.target.value)}
         sx={{ my: 2 }}
       />
-      <Button variant="contained" color="primary" onClick={fetchProgressLogs}>
+      <Button variant="contained" color="success" onClick={fetchProgressLogs}>
         View Progress
       </Button>
       <List>

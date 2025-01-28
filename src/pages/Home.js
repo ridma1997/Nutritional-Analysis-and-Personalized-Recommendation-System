@@ -37,7 +37,7 @@ const Home = () => {
   return (
     <Box
       sx={{
-        backgroundColor: "#f5f5f5",
+        backgroundColor:"#5ca946",
         minHeight: "100vh",
         padding: "2rem",
       }}

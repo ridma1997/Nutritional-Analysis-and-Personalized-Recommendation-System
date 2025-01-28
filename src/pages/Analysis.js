@@ -13,7 +13,7 @@ const Analysis = () => {
   return (
     <Box
       sx={{
-        backgroundColor: "#f5f5f5", // Light gray background
+        backgroundColor: "#5ca946", 
         minHeight: "100vh",
         padding: "2rem",
       }}

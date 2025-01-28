@@ -6,7 +6,7 @@ import { UserContext } from "../context/UserContext";
 const Navbar = () => {
   const { user } = useContext(UserContext);
   return (
-   <AppBar position="static" style={{ backgroundColor: "#1976d2" }}>
+   <AppBar position="static" style={{ backgroundColor:"#0b660e" }}>
       <Toolbar>
         <Typography variant="h2" style={{ flexGrow: 1 }}>
           Smile
@@ -26,7 +26,9 @@ const Navbar = () => {
         <Button color="inherit" component={Link} to="/register">
           Register
         </Button>
-         
+        <Button color="inherit" component={Link} to="/recipes">
+          Recipes
+        </Button>
        
       </Toolbar>
     </AppBar> 

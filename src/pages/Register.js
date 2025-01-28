@@ -50,8 +50,8 @@ const Register = () => {
                 display: "flex",
                 justifyContent: "center",
                 alignItems: "center",
-                height: "100vh",
-                backgroundColor: "#f7f7f7",
+                height: "120vh",
+                backgroundColor: "#5ca946",
             }}
         >
             <div
@@ -187,7 +187,7 @@ const Register = () => {
                         style={{
                             width: "100%",
                             padding: "10px",
-                            backgroundColor: "#007BFF",
+                            backgroundColor: "#0be047",
                             color: "white",
                             borderRadius: "4px",
                             border: "none",

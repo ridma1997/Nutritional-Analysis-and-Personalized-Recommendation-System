@@ -29,7 +29,7 @@ const MealSuggestions = () => {
         onChange={(e) => setUserId(e.target.value)}
         sx={{ my: 2 }}
       />
-      <Button variant="contained" color="primary" onClick={fetchMealSuggestions}>
+      <Button variant="contained" color="success" onClick={fetchMealSuggestions}>
         Get Suggestions
       </Button>
       {suggestions && (

@@ -21,7 +21,7 @@ const InteractiveCharts = () => {
               {
                 label: "Calories Consumed",
                 data: data.map((entry) => entry.calories),
-                borderColor: "rgba(75, 192, 192, 1)",
+                borderColor: "rgb(43, 204, 68)",
                 backgroundColor: "rgba(75, 192, 192, 0.2)",
                 fill: true,
               },

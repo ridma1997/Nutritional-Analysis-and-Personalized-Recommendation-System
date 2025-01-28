@@ -39,7 +39,7 @@ const Suggestions = () => {
     <Box
       sx={{
         padding: "2rem",
-        backgroundColor: "#f7f9fc",
+        backgroundColor: "#5ca946",
         minHeight: "100vh",
       }}
     >

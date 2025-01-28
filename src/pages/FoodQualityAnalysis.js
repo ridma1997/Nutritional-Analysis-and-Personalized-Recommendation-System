@@ -29,7 +29,7 @@ const FoodQualityAnalysis = () => {
         onChange={(e) => setFoodName(e.target.value)}
         sx={{ my: 2 }}
       />
-      <Button variant="contained" color="primary" onClick={fetchFoodQuality}>
+      <Button variant="contained" color="success" onClick={fetchFoodQuality}>
         Analyze Quality
       </Button>
       {quality && (

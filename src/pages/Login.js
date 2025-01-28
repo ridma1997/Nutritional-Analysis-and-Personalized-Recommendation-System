@@ -44,7 +44,7 @@ const Login = () => {
                 justifyContent: "center",
                 alignItems: "center",
                 height: "100vh",
-                backgroundColor: "#f7f7f7",
+                backgroundColor: "#5ca946",
             }}
         >
             <div
@@ -109,7 +109,7 @@ const Login = () => {
                         style={{
                             width: "100%",
                             padding: "10px",
-                            backgroundColor: "#007BFF",
+                            backgroundColor:"#0be047",
                             color: "white",
                             borderRadius: "4px",
                             border: "none",

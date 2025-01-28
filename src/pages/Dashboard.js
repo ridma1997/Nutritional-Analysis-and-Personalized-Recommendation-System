@@ -49,7 +49,7 @@ function Dashboard() {
           labels,
           datasets: [
             {
-              label: "Calorie Intake",
+              label: "Burn Calories",
               data: calorieData,
               borderColor: "rgba(75,192,192,1)",
               backgroundColor: "rgba(75,192,192,0.2)",

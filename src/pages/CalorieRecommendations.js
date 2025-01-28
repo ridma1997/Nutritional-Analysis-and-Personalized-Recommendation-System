@@ -29,7 +29,7 @@ const CalorieRecommendations = () => {
         onChange={(e) => setUserId(e.target.value)}
         sx={{ my: 2 }}
       />
-      <Button variant="contained" color="primary" onClick={fetchRecommendations}>
+      <Button variant="contained" color="success" onClick={fetchRecommendations}>
         Get Recommendations
       </Button>
       {recommendations && (
